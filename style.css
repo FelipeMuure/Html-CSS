@@ -1,0 +1,197 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: auto;
+    background-color: #E8E6C2;
+}
+
+/*Cabeçalho*/
+header {
+    background-image: linear-gradient(to bottom, #32B46C, #1A5C38);
+    color: white;
+    margin: -21px -12px 1px -12px;
+    box-shadow: 1px 2px 2px rgba(red, green, blue, 0.4);
+}
+
+header > h1 {
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+}
+
+header > p {
+    text-align: center;
+    padding: 4px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+nav {
+    height: 100%;
+    margin-left: 10px;
+    padding-bottom: 8px;
+}
+
+a.menu {
+    color: #44cf83;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+a.menu:hover {
+    background-color: #32B46C;
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Corpo*/
+section {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: min(100% - 1rem, 1000px);
+    margin-inline: auto;
+}
+
+section > h2 {
+    margin: 0px;
+    text-align: left;
+    color: #1A5C38;
+    font-family: idroid, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 5px;
+}
+
+section > h3 {
+    background-image: linear-gradient(to right, #76e9aa, #e6fcf0, white);
+    text-align: left;
+    color: #1A5C38;
+    font-family: idroid, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+section > p {
+    text-align: left;
+}
+
+/*Fotos*/
+
+picture {
+    position: relative;
+    padding-bottom: 55%;
+}
+
+picture > img {
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+}
+
+
+/*Video*/
+
+div {
+    background-color: #1A5C38;
+    position: relative;
+    padding-bottom: 55%;
+}
+
+div > iframe {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+}
+
+/*Extra Corpo*/
+
+article {
+    background-color: #a2f5c7;
+    text-align: left;
+    border-radius: 20px;
+}
+
+article > h4 {
+    background-color: #32B46C;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-radius: 20px 20px 0 0;
+}
+
+article > ul {
+    list-style: '\2714  ';
+    text-decoration: underline dotted;
+    columns: 2;
+}
+
+article > p {
+    padding: 5px;
+}
+
+aside {
+    display: inline;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+    padding: 2px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin: 15px -15px -15px -15px;
+}
+
+footer > p {
+    margin: 0;
+}
+
+strong.footer {
+    color: white;
+}
+
+/*Tags Semânticas*/
+
+strong {
+    color: #1A5C38;
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
+    background-color: #89DEAA;
+    color: #1A5C38;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+cite::after {
+    content: "📱";
+    color: white;
+}
+
+a {
+    color: #1A5C38;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
