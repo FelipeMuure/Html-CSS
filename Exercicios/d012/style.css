@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    padding: 50px 0px;
+    background-color: black;
+    font-variant: small-caps;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Inicio Corpo*/
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+article {
+    padding: 15px;
+}
+
+p {
+    font-family: 'Meriendo One', cursive, sans-serif;
+    font-size: 4vw;
+    text-align: left;
+    line-height: 2em;
+    
+}
+
+aside#flor {
+    margin: 0 -30px;
+    background-image: url('imagens/background001.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div{
+    margin-top: 20px;
+    padding: 50px 15px;
+
+}
+
+
+div > p {
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    max-width: 65vw;
+}
+
+aside#livro {
+    margin: 0 -30px;
+    background-image: url('imagens/background002.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer > p {
+    font-size: 10pt;
+    text-align: center;
+    line-height: 30px;
+}
